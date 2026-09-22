@@ -6,7 +6,8 @@
 	<title>super secret wow!!!</title>
 	<style>
 		html, body { background: #000; }
-		#video { display: none; width: 50%; height: 50%; }
+		#video { display: none; width: auto; height: auto; }
+		#startScreen {color:white; font-size:large; text-align:center; margin-top: 20%;}
 	</style>
 </head>
 <body>
@@ -16,7 +17,7 @@
 <video id="video">
     <source src="supersecret.mp4" type="video/mp4">
 </video>
-<a href="secret.html" style="color: black;">actually the secret</p>
+<a href="secret.html" style="color: black;">actually the secret</a>
 <script>
 	const startScreen = document.getElementById('startScreen');
 	const video = document.getElementById('video');
